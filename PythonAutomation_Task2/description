@@ -1,0 +1,24 @@
+📂 Basic Chatbot - CodeAlpha Internship Task
+This project features a text-based chatbot developed using Python's NLP libraries like NLTK and spaCy. The chatbot engages in conversations with users, responds to various topics, and offers guidance with personality and humor.
+
+🔹 Key Features
+✅ Natural Language Processing (NLP) using NLTK and spaCy
+✅ POS Tagging, Lemmatization, and Named Entity Recognition (NER) for smarter responses
+✅ Covers topics like IELTS preparation, health tips, career guidance, weather updates, and more
+✅ Includes custom reflections for personalized conversations
+✅ Debug mode for displaying NLP details like POS tags, lemmatized text, and recognized entities
+
+🚀 How to Run
+1. Install dependencies:
+pip install nltk spacy
+python -m spacy download en_core_web_sm
+2. Run the chatbot script:
+python chatbot.py
+Type your queries and enjoy the conversation! 😊
+
+💡 Try Asking...
+"Tell me about IELTS."
+"What are some healthy eating tips?"
+"What's the weather like in Lahore?"
+"I need career advice."
+Feel free to explore, enhance, or contribute! 
