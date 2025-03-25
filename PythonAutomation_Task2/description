@@ -1,24 +1,36 @@
-📂 Basic Chatbot - CodeAlpha Internship Task
-This project features a text-based chatbot developed using Python's NLP libraries like NLTK and spaCy. The chatbot engages in conversations with users, responds to various topics, and offers guidance with personality and humor.
+*File Description: File Organization Automation*
+Objective:
+This Python script automates file organization by sorting files into folders based on their types.
 
-🔹 Key Features
-✅ Natural Language Processing (NLP) using NLTK and spaCy
-✅ POS Tagging, Lemmatization, and Named Entity Recognition (NER) for smarter responses
-✅ Covers topics like IELTS preparation, health tips, career guidance, weather updates, and more
-✅ Includes custom reflections for personalized conversations
-✅ Debug mode for displaying NLP details like POS tags, lemmatized text, and recognized entities
+*How It Works:*
 
-🚀 How to Run
-1. Install dependencies:
-pip install nltk spacy
-python -m spacy download en_core_web_sm
-2. Run the chatbot script:
-python chatbot.py
-Type your queries and enjoy the conversation! 😊
+1. Organizes files from the Downloads folder.
+2. Creates folders like Images, Documents, Videos, etc., if they don’t exist.
+3. Moves files to respective folders based on their extensions.
+4. Displays a confirmation message for each moved file.
 
-💡 Try Asking...
-"Tell me about IELTS."
-"What are some healthy eating tips?"
-"What's the weather like in Lahore?"
-"I need career advice."
-Feel free to explore, enhance, or contribute! 
+*Example Folder Structure:*
+
+~Before:
+Downloads/
+├── photo.jpg
+├── report.pdf
+├── video.mp4
+~After:
+Downloads/
+├── Images
+│   └── photo.jpg
+├── Documents
+│   └── report.pdf
+├── Videos
+│   └── video.mp4
+
+*Usage:*
+Copy the Automation.py script to your system.
+Update the source_folder path if needed.
+Run the command:
+python Automation.py
+Future Enhancements:
+Add error handling.
+Include logging for better tracking.
+Schedule the script for automatic execution.
